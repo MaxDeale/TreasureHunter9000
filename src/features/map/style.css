@@ -1,0 +1,61 @@
+.tile {
+    display: inline-flex;
+    border: none;
+
+}
+
+body {
+    background-color: darkslateblue;
+}
+
+.grass {
+    background: white;
+}
+
+.container{
+    widows: 300px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    letter-spacing: 4px;
+    font-weight: lighter;
+}
+
+.container h1,p{
+    text-align: center;
+    justify-self: center;
+    font-family: "rock salt";
+  
+}
+
+.rock {
+    background-image: url('../../tiles/rock4.png');
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+
+}
+
+.tree {
+    background-image: url('../../tiles/tree3.png');
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+}
+
+.chest {
+    background-image: url('../../tiles/chest.png');
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+}
+
+/* body {
+    background-color: black;
+} */
